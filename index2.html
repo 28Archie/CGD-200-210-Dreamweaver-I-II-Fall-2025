@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archie Villasor | Professional Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("./bg.png") no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+    }
+
+    /* Background Blur Layer */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      width: 95%;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      overflow-y: auto;
+      max-height: 90vh;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid #0077b6;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    h2 {
+      color: #0077b6;
+      margin-top: 20px;
+      border-bottom: 2px solid #0077b6;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: #444;
+      margin-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .info span {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 30px;
+      padding-top: 10px;
+      border-top: 1px solid #ccc;
+    }
+
+    .highlight {
+      color: #e63946;
+      font-weight: bold;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      header img {
+        margin-bottom: 10px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="./MY PHOTO.png" alt="Archie Villasor">
+      <div>
+        <h1>Archie Sapinoso Villasor</h1>
+        <h3><em>AV & Digital Content Specialist - Edmark International</em></h3>
+        <div class="info">
+          <span><strong>Phone:</strong> +1 (227)-229-8227</span><br>
+          <span><strong>Email:</strong> edmarkerarchie@gmail.com</span><br>
+          <span><strong>Address:</strong> 13623 Jeff Rd, Glenarden, MD 20774</span>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Career Objective</h2>
+      <p>
+        To leverage my expertise in both <b>technology</b> and <b>marketing</b>, along with my experience in managing 
+        online and virtual events, to deliver innovative digital solutions and impactful marketing campaigns. 
+        I aim to contribute by creating compelling graphic content that enhances brand visibility and 
+        developing strategies that boost market presence, supported by my strong technical background 
+        in computer programming.
+      </p>
+    </section>
+
+    <section>
+      <h2>Personal Information</h2>
+      <p>
+        <b>Age:</b> 38<br>
+        <b>Gender:</b> Male<br>
+        <b>Birthday:</b> October 27, 1985<br>
+        <b>Birth Place:</b> Cubao, Quezon City<br>
+        <b>Height:</b> 152.4 cm<br>
+        <b>Weight:</b> 167.2 lbs<br>
+        <b>Nationality:</b> Filipino<br>
+        <b>Religion:</b> Roman Catholic<br>
+        <b>Civil Status:</b> Married
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>
+        <strong>Computer Programming</strong><br>
+        Worldtech Resources Institute<br>
+        National Highway, Concepcion Grande, Naga City, Camarines Sur, Philippines<br>
+        <em>2003 - 2004</em>
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <h3>Technical Head (Online/Virtual Events)</h3>
+      <p><em>2022 - Present | Edmark International</em></p>
+      <ul>
+        <li>Managed technical planning, setup, and execution of online events for seamless delivery.</li>
+        <li>Coordinated with organizers to meet technical requirements and optimize virtual platforms.</li>
+        <li>Oversaw live streaming, video conferencing, and other technologies for engaging experiences.</li>
+        <li>Troubleshot issues during events and implemented contingency plans.</li>
+        <li>Worked with marketing, design, and logistics teams to ensure cohesive execution.</li>
+      </ul>
+
+      <h3>Digital Marketing Specialist (Graphic and Static Work)</h3>
+      <p><em>2020 - 2022 | Edmark International</em></p>
+      <ul>
+        <li>Created engaging visuals using Adobe Creative Suite for social media and websites.</li>
+        <li>Collaborated with marketing teams for consistent brand communication.</li>
+        <li>Analyzed performance metrics to improve digital engagement.</li>
+      </ul>
+
+      <h3>Marketing Manager</h3>
+      <p><em>2019 - 2022 | Edmark Nigeria Lagos Branch</em></p>
+
+      <h3>Marketing Assistant</h3>
+      <p><em>2016 - 2019 | Edmark Dubai Branch</em></p>
+      <p><em>2010 - 2016 | Edmark Cubao Branch</em></p>
+    </section>
+
+    <section>
+      <h2>Personal Attributes</h2>
+      <ul>
+        <li>Adaptable under pressure</li>
+        <li>Strong interpersonal and communication skills</li>
+        <li>Live Streaming & Video Conferencing</li>
+        <li>Digital Content Design</li>
+        <li>Adobe Creative Suite</li>
+        <li>Marketing Strategy Development</li>
+        <li>Technical Event Management</li>
+        <li>Campaign Management</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2025 Archie Villasor — Designed & Coded by Archie</p>
+    </footer>
+  </div>
+</body>
+</html>
